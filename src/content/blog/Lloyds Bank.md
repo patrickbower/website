@@ -1,6 +1,6 @@
 ---
-title: "Testing Testing 123"
-description: "First Post - Hello World"
+title: "Lloyds Bank"
+description: "A project about a banking app"
 pubDate: 2023-04-02
 heroImage: "/images/placeholder-hero.jpg"
 featured: true
@@ -9,6 +9,7 @@ tags:
     - post
     - guide
     - markdown
+logo: "/icons/nutritrack-icon.png"
 ---
 
 ## Hello World

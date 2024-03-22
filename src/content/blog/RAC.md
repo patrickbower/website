@@ -1,6 +1,6 @@
 ---
-title: "Astro Lane V1.0.0"
-description: "Are you looking to personalize your blog's look and feel? Look no further than Astro Lane, the latest AstroJS theme from chrstnl!"
+title: "RAC"
+description: "Design 500+ marketing pages"
 pubDate: 2023-04-24
 heroImage: "/images/astro-lane.png"
 featured: true
@@ -9,6 +9,7 @@ tags:
     - post
     - docs
     - release
+logo: "/icons/flash-icon.png"
 ---
 
 ## Astro Lane: Launching the New AstroJS Theme for Your Blog!

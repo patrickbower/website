@@ -1,13 +1,14 @@
 ---
 pubDate: 2023-04-23
-title: Adding posts in Astro Lane
+title: DAZN
 featured: true
 draft: false
 tags:
     - docs
     - guide
 heroImage: ""
-description: "Rules & recommendations for creating or adding posts using Astro Lane."
+description: "This is a test to see on the homepage"
+logo: "/icons/nutritrack-icon.png"
 ---
 
 Are you planning to create a blog post using the "Astro Lane" theme? Here are some guidelines and recommendations to help you create a great post.

@@ -1,10 +1,11 @@
 ---
-title: "How to configure Astro Lane Theme"
-description: "Astro Lane is an awesome customizable blog theme for Astro, You'll be able to easily personalize everything to suit your unique style. In this post, we'll walk you through some simple ways to make customizations in the config file."
+title: "Vodafone"
+description: "Astro Lane is an awesome"
 pubDate: 2023-04-15
 heroImage: ""
 featured: true
 draft: false
+logo: "/icons/nutritrack-icon.png"
 tags:
     - config
     - docs

@@ -57,26 +57,31 @@ const sortedPosts = posts
             </div>
         </SectionContainer>
         <!-- Header/Hero Section -->
-        <!-- <SectionContainer class="projects--container">
-            <h2
-                class="font-medium text-h4 text-neutral-500 my-4 leading-8 tracking-tighter"
-            >
-                Products
-            </h2>
+        <!--  Projects Container -->
+        <SectionContainer class="blogs--container">
+            <div class="flex flex-row my-4 items-center text-neutral-500">
+                <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
+                    Projects
+                </h2>
+                <a href="/blog" class="font-medium flex no-underline ml-auto">
+                    View all projects
+                    <Icon name="ph:arrow-right-light" class="w-6 h-6 ml-4" />
+                </a>
+            </div>
+
             <CardGroup
                 class="grid scroll-m-24 gap-5 grid-cols-1 md:grid-cols-2 w-full"
             >
                 {
-                    projectData.map((project) => (
+                    sortedPosts.map((post) => (
                         <Card
-                            key={project.id}
+                            key={post.id}
                             className="col-span-1"
-                            link={project.link}
-                            target="_blank"
+                            link={`/blog/${post.slug}`}
                         >
                             <CardBody>
                                 <CardImage
-                                    src={project.logo}
+                                    src={post.data.logo}
                                     alt="Alternative text for photo"
                                     imageClass="absolute top-0 right-0 m-6 p-4 bg-white rounded-3xl"
                                     width={80}
@@ -84,10 +89,10 @@ const sortedPosts = posts
                                 />
                                 <div class="card-content absolute bottom-8 left-6 right-6">
                                     <CardHeader class="">
-                                        {project.title}
+                                        {post.data.title}
                                     </CardHeader>
                                     <div class="content break-words  text-3xl font-medium leading-10 tracking-tight lg:tracking-tighter text-neutral-500 ">
-                                        <p>{project.shortExcerpt}</p>
+                                        <p>{post.data.description}</p>
                                     </div>
                                 </div>
                             </CardBody>
@@ -95,49 +100,6 @@ const sortedPosts = posts
                     ))
                 }
             </CardGroup>
-        </SectionContainer> -->
-        <!--  Projects Container -->
-        <SectionContainer class="blogs--container">
-            <div class="flex flex-row my-4 items-center text-neutral-500">
-                <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
-                    Blogs
-                </h2>
-                <a href="/blog" class="font-medium flex no-underline ml-auto">
-                    View all blogs
-                    <Icon name="ph:arrow-right-light" class="w-6 h-6 ml-4" />
-                </a>
-            </div>
-
-            <ul class="list-none space-y-5">
-                {
-                    sortedPosts.map((post) => (
-                        <li class="flex flex-col gap-1">
-                            <a
-                                href={`/blog/${post.slug}`}
-                                class="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[40px] transition-all duration-300 hover:-top-0.5 relative"
-                            >
-                                <span class="grid flex-1 gap-1">
-                                    <span class="text-neutral-900 line-clamp-1 md:inline-flex items-center">
-                                        <span class="inline-block font-medium">
-                                            {post.data.title}
-                                        </span>
-                                        <span class="md:mb-0 my-2 md:my-0 md:ml-2 text-sm w-max md:w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-primary-500 block md:inline-flex">
-                                            <span class="px-2">
-                                                <FormattedDate
-                                                    date={post.data.pubDate}
-                                                />
-                                            </span>
-                                        </span>
-                                    </span>
-                                    <span class="text-neutral-500 line-clamp-2 ">
-                                        {post.data.description}
-                                    </span>
-                                </span>
-                            </a>
-                        </li>
-                    ))
-                }
-            </ul>
         </SectionContainer>
         <!-- Blog Container -->
         <SectionContainer class="tags--container">

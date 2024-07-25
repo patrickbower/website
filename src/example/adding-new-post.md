@@ -8,7 +8,7 @@ tags:
     - guide
 heroImage: ""
 description: "This is a test to see on the homepage"
-logo: "/icons/nutritrack-icon.png"
+logo: "/icons/dazn-icon.png"
 ---
 
 Are you planning to create a blog post using the "Astro Lane" theme? Here are some guidelines and recommendations to help you create a great post.

@@ -8,6 +8,7 @@ import remarkToc from "remark-toc";
 import image from "@astrojs/image";
 import prefetch from "@astrojs/prefetch";
 import { SITE } from "./src/config.ts";
+
 // https://astro.build/config
 export default defineConfig({
     site: SITE.siteUrl,

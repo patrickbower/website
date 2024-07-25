@@ -14,6 +14,12 @@ module.exports = {
                         lineHeight: "1.5rem"
                     }
                 ],
+                p: [
+                    "1rem",
+                    {
+                        lineHeight: "2rem"
+                    }
+                ],
                 h1: [
                     "3.5rem",
                     {

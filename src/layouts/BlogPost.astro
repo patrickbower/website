@@ -7,7 +7,7 @@ import { Icon } from "astro-icon";
 import { SITE } from "@config";
 
 export interface Props {
-    post: CollectionEntry<"blog">;
+    post: CollectionEntry<"project">;
 }
 
 const { post } = Astro.props;
@@ -38,7 +38,7 @@ const { Content } = await post.render();
                 >
                     <a
                         class="blog-back-button cursor-pointer text-neutral-500 flex no-underline mb-16"
-                        href="/blog/"
+                        href="/project/"
                     >
                         <Icon name="ph:arrow-left-light" class="w-6 h-6 mr-4" />
                         Back
@@ -99,7 +99,7 @@ const { Content } = await post.render();
         if (window.history.length > 1) {
             window.history.back();
         } else {
-            window.location.href = "/blog/";
+            window.location.href = "/project/";
         }
     }
 </script>

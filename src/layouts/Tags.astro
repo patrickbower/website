@@ -7,7 +7,7 @@ import { SITE } from "@config";
 import { CollectionEntry } from "astro:content";
 
 export interface Props {
-    posts: CollectionEntry<"blog">[];
+    posts: CollectionEntry<"project">[];
     title: string;
     tag: string;
 }
@@ -35,7 +35,7 @@ const { posts, title, tag } = Astro.props;
             >
                 Tags:{tag}
                 <span class="ml-2 opacity-70 text-xl"
-                    >(All the posts with the tag "{`${tag}`}")</span
+                    >(All the projects with the tag "{`${tag}`}")</span
                 >
             </h2>
 
@@ -44,7 +44,7 @@ const { posts, title, tag } = Astro.props;
                     posts.map((post) => (
                         <li class="flex flex-col gap-1">
                             <a
-                                href={`/blog/${post.slug}`}
+                                href={`/project/${post.slug}`}
                                 class="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[40px] transition-all duration-300"
                             >
                                 <span class="grid flex-1 gap-1">

@@ -6,7 +6,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
 import { Icon } from "astro-icon";
 import getSortedTags from "@/utils/getSortedTags";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("project");
 
 let tags = getSortedTags(posts);
 ---
@@ -28,7 +28,7 @@ let tags = getSortedTags(posts);
             >
                 Tags
                 <span class="ml-2 opacity-70 text-xl">
-                    (All tags used in blogs)
+                    (All tags used in projects)
                 </span>
             </h2>
             <ul class="list-none space-y-5">

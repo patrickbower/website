@@ -13,7 +13,7 @@ import { getCollection } from "astro:content";
 import { Icon } from "astro-icon";
 import getSortedTags from "@/utils/getSortedTags";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("project");
 
 const tags = getSortedTags(posts).slice(0, 6);
 const sortedPosts = posts
@@ -63,7 +63,10 @@ const sortedPosts = posts
                 <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
                     Projects
                 </h2>
-                <a href="/blog" class="font-medium flex no-underline ml-auto">
+                <a
+                    href="/project"
+                    class="font-medium flex no-underline ml-auto"
+                >
                     View all projects
                     <Icon name="ph:arrow-right-light" class="w-6 h-6 ml-4" />
                 </a>
@@ -77,7 +80,7 @@ const sortedPosts = posts
                         <Card
                             key={post.id}
                             className="col-span-1"
-                            link={`/blog/${post.slug}`}
+                            link={`/project/${post.slug}`}
                         >
                             <CardBody>
                                 <CardImage

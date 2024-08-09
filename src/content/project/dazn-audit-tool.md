@@ -7,15 +7,17 @@ featured: true
 draft: false
 logo: "/icons/dazn-icon.png"
 tags:
-    - config
-    - docs
+    - leadership
+    - code
+    - ux
+    - ui
 ---
 
 ## Landing Page Audit Tool (Side Project)
 
 With no data from an existing Landing Page Builder tool, I was stuck on how to lead a redesign for landing pages needed across DAZN's global markets. To get data and insight, I built a Node.js crawler analysing and databasing all current and previous DAZN landing pages. I then developed and published the results using static site generation and React.js for data visualisation.
 
-The tool captures a screenshot of each component to understand content requirements and gain insight into where new opportunities may need to be considered.
+The tool captures a screenshot of each component to eyeball basic content requirements and gain insight into where new opportunities may need to be considered.
 
 ### Scope
 

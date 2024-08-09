@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import Layout from "./Layout.astro";
+import CardImage from "@/components/card/CardImage.astro";
 import SectionContainer from "@/components/SectionContainer.astro";
 import { Icon } from "astro-icon";
 import { SITE } from "@config";
@@ -12,7 +13,7 @@ export interface Props {
 
 const { post } = Astro.props;
 
-const { title, description, pubDate, updatedDate, heroImage } = post.data;
+const { title, description, pubDate, updatedDate, heroImage, logo } = post.data;
 
 const ogUrl = new URL(
     heroImage ? heroImage : `${title.replace(/\s+/g, "-").toLowerCase()}.png`,
@@ -43,12 +44,20 @@ const { Content } = await post.render();
                         <Icon name="ph:arrow-left-light" class="w-6 h-6 mr-4" />
                         Back
                     </a>
-                    <div class="post--title">
+                    <CardImage
+                        src={logo}
+                        alt="Alternative text for photo"
+                        imageClass="bg-neutral-50 rounded-3xl"
+                        width={200}
+                        height={200}
+                    />
+                    <!-- <div class="post--title">
                         <h1 class="text-3xl md:text-4xl">
                             {title}
                         </h1>
-                    </div>
-                    <span
+                    </div> -->
+
+                    <!-- <span
                         class="mb-4 text-sm w-max md:w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-primary-500 block md:inline-flex"
                     >
                         <span class="px-2">
@@ -62,7 +71,7 @@ const { Content } = await post.render();
                                 <FormattedDate date={updatedDate} />
                             </div>
                         )
-                    }
+                    } -->
                     {
                         heroImage && (
                             <img

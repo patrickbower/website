@@ -7,8 +7,10 @@ featured: true
 draft: false
 logo: "/icons/dazn-icon.png"
 tags:
-    - config
-    - docs
+    - code
+    - prototyping
+    - ux
+    - ui
 ---
 
 # Automating sports big talking points

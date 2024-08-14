@@ -202,7 +202,7 @@ npm run search class="{name-of-class}" name="{name-of-folder}" excludes="true"
 
 <figure>
   <Image
-    src="/images/audit-tool/webpage-3.png"
+    src="/images/audit-tool/webpage.png"
     class="rounded-md"
   />
   <figcaption>Results page shared with stakeholders.</figcaption>

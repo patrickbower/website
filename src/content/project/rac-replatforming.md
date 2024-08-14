@@ -30,6 +30,15 @@ With a yearly service reach of 13.6 million members, the RAC stands as a promine
 
 I conducted a thorough audit of existing pages and components, strategically categorizing them by domain level and importance. This led to the initiation of a consolidation process aimed at optimizing the content structure. Operating within an agile framework, I meticulously designed, developed, and rigorously tested components before integrating them into the new platform. Collaborating closely with development and content teams, we streamlined our agile workflow to address constraints, mitigate risks, and prioritize tasks effectively.
 
+### Outcome
+
+-   The bounce rate decreased by an average of 9% across all landing pages, including the homepage.
+-   Navigation traffic saw an average increase of 8% across all landing pages, including the homepage.
+-   Traffic to myRAC increased by 3% through self-service channels.
+-   Call volume decreased by 1.5% as a result of the increase in self-service utilization.
+-   The consolidated design of components received highly positive feedback from executive-level stakeholders.
+-   The design contributed to a 20-point increase in core web vitals score, enhancing SEO performance.
+
 <figure>
   <Image
     src="/images/rac-replatform/nav-mapping.png"

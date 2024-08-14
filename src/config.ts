@@ -18,7 +18,7 @@ export const SITE: Site = {
 export const SOCIALS: SocialMediaObjects = [
     {
         name: "LinkedIn",
-        href: "www.linkedin.com/in/patrick-bower",
+        href: "https://linkedin.com/in/patrick-bower",
         icon: "ph:linkedin-logo-duotone",
         title: `Follow ${SITE.title} on LinkedIn`,
         active: true

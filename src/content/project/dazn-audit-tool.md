@@ -30,7 +30,7 @@ The tool captures a screenshot of each component to eyeball basic content requir
 
 ### Process
 
-The project is a Node.js command-line tool designed to fetch web pages, save them locally, and analyze them using class name attributes to generate 'component usage' statistics. These statistics are then utilized in a secondary command-line application to create data visualizations and overall statistics. The tool includes various commands such as setting up directories, fetching pages, scanning pages for class names, generating reports on page statistics, and analyzing component usage. By following a systematic approach, users can effectively audit web pages for component usage and extract valuable insights.
+The project is a Node.js command-line tool designed to fetch web pages, save them locally, and analyze them using class name attributes to generate 'component usage' statistics. These statistics are then passed into a secondary application to create data visualizations and overall statistics. As separate applications, it's possible to see changes over time and switch between datasets. The tool includes various commands such as setting up directories, fetching pages, scanning pages, generating reports on page statistics, and analyzing component usage. By following a systematic approach, I could effectively audit web pages for component usage and extract valuable insights.
 
 ### Outcome
 
@@ -41,10 +41,11 @@ The project is a Node.js command-line tool designed to fetch web pages, save the
 
 ### Project
 
-<div class="w-100 bg-gray-300 p-4 rounded-md">
+<figure>
+  <div class="w-100 bg-gray-300 p-4 rounded-md">
 
 <details>
-  <summary>Repo README</summary>
+  <summary>Github repository README</summary>
 
 #### Introduction
 
@@ -188,13 +189,21 @@ npm run search class="{name-of-class}" name="{name-of-folder}" excludes="true"
 </details>
 
 </div>
+  <figcaption>Understand the inner workings of the command line application. Expand for a detailed breakdown of its functionality.</figcaption>
+</figure>
 
-<Image
-  src="/images/audit-tool/vscode.png"
-  class="rounded-md"
-/>
+<figure>
+  <Image
+    src="/images/audit-tool/vscode.png"
+    class="rounded-md"
+  />
+  <figcaption>Sample of source code with annotations and structured insights.</figcaption>
+</figure>
 
-<Image
-  src="/images/audit-tool/webpage-3.png"
-  class="rounded-md"
-/>
+<figure>
+  <Image
+    src="/images/audit-tool/webpage-3.png"
+    class="rounded-md"
+  />
+  <figcaption>Results page shared with stakeholders.</figcaption>
+</figure>

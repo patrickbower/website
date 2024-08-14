@@ -18,7 +18,7 @@ As the leader in UX and design for an innovative application, I helped create a 
 
 | Aspect | Answer            |
 | ------ | ----------------- |
-| Time   | 3 Months          |
+| Time   | 5 Months          |
 | Team   | Agile             |
 | Role   | UX / Design       |
 | Tools  | Sketch / InVision |
@@ -26,6 +26,12 @@ As the leader in UX and design for an innovative application, I helped create a 
 ### Process
 
 Advocating for a CCMS (Component Content Management System) to streamline content creation, reuse, and governance within the banking sector's compliance landscape. By leveraging insights from the banks experts and existing customers, we delved into the emotional nuances of investing to decipher triggers of confusion, confidence, and trust. Translating these insights into core values and propositions, we embarked on refining user input pages where individuals can simulate financial scenarios to grasp the benefits and risks of investment decisions.
+
+### Outcome
+
+-   New investment platform for beginners launched and adopted by over 5000 users.
+-   Content system implemented with more than 240 content components.
+-   Successful navigation of compliance achieved through the content system implementation.
 
 <figure>
   <Image

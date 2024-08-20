@@ -8,8 +8,7 @@ export const SITE: Site = {
     desc: "A personal portfolio",
     title: "Patrick Bower Product Design",
     ogImage: "images/pb-logo.png",
-    keywords:
-        "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
+    keywords: "Patrick Bower, Product Designer, Design, UX, Code, Portfolio",
     postPerPage: 4
 };
 

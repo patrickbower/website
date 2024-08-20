@@ -4,7 +4,7 @@ description: "Investment Match"
 pubDate: 2023-04-02
 featured: true
 draft: false
-logo: "/icons/lloyds-icon.png"
+logo: "/icons/halifax-icon.png"
 tags:
     - ux
     - ui
@@ -12,7 +12,7 @@ tags:
 
 ## Guiding first-time investors to financial growth
 
-As the leader in UX and design for an innovative application, I helped create a content driven service for customers shifting from traditional savings to investment opportunities. Our platform is designed to empower and educate first-time investors, providing guidance and insights to help them maximise their financial potential.
+Leading the UX and design for this innovative application, I helped create a content driven service for customers shifting from traditional savings to investment opportunities. Our platform is designed to empower and educate first-time investors, providing guidance and insights to help them maximise their financial potential.
 
 ### Scope
 
@@ -25,11 +25,13 @@ As the leader in UX and design for an innovative application, I helped create a 
 
 ### Process
 
-Advocating for a CCMS (Component Content Management System) to streamline content creation, reuse, and governance within the banking sector's compliance landscape. By leveraging insights from the banks experts and existing customers, we delved into the emotional nuances of investing to decipher triggers of confusion, confidence, and trust. Translating these insights into core values and propositions, we embarked on refining user input pages where individuals can simulate financial scenarios to grasp the benefits and risks of investment decisions.
+By leveraging insights from the banks experts and existing customers, we delved into the emotional nuances of investing to understand triggers of confusion, confidence, and trust. Translating these insights into core values and propositions, we embarked on refining user input pages where individuals can simulate financial scenarios to grasp the benefits and risks of investment decisions.
+
+I also advocated for a Component Content Management System (CCMS) to streamline UX copy content creation, reuse, and governance within the bank's stringent compliance landscape. I led workshops where processes could be experienced rather than merely explained.
 
 ### Outcome
 
--   New investment platform for beginners launched and adopted by over 5000 users.
+-   New investment platform for beginners launched and used by more than 5000 customers.
 -   Content system implemented with more than 240 content components.
 -   Successful navigation of compliance achieved through the content system implementation.
 

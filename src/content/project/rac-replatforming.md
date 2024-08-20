@@ -15,7 +15,7 @@ tags:
 
 ## Design 500+ marketing pages
 
-With a yearly service reach of 13.6 million members, the RAC stands as a prominent breakdown service provider in the UK. The marketing content on the extensive RAC domain spans over five hundred pages, serving to inform, educate, and inspire. When tasked with orchestrating a comprehensive redesign within a tight six-month timeframe, I strategically planned and executed the redesign single-handedly. The successful delivery of the redesigned platform not only met the deadline but also facilitated a seamless transition to sunset the existing platform.
+With a yearly service reach of 13.6 million members, the RAC stands as a prominent breakdown service provider in the UK. The marketing content on the extensive RAC domain spans over five hundred pages, serving to inform, educate, and inspire. When tasked with creating a comprehensive redesign within a tight six-month timescale, I strategically planned and executed this single-handedly. The successful delivery of the redesigned platform not only met the deadline but also facilitated a seamless transition to sunset the existing platform.
 
 ### Scope
 
@@ -28,16 +28,15 @@ With a yearly service reach of 13.6 million members, the RAC stands as a promine
 
 ### Process
 
-I conducted a thorough audit of existing pages and components, strategically categorizing them by domain level and importance. This led to the initiation of a consolidation process aimed at optimizing the content structure. Operating within an agile framework, I meticulously designed, developed, and rigorously tested components before integrating them into the new platform. Collaborating closely with development and content teams, we streamlined our agile workflow to address constraints, mitigate risks, and prioritize tasks effectively.
+I led a comprehensive audit of existing pages and components, categorising them strategically by domain level and importance. This process initiated a consolidation effort aimed at optimising the content structure. Working within an agile framework, I meticulously designed, developed, and rigorously tested components before integrating them into the new platform. Through close collaboration with development and content teams, we streamlined our agile workflow to address constraints, mitigate risks, and prioritise tasks effectively.
 
 ### Outcome
 
--   The bounce rate decreased by an average of 9% across all landing pages, including the homepage.
--   Navigation traffic saw an average increase of 8% across all landing pages, including the homepage.
+-   Bounce rate decreased by an average of 9% across landing pages (including homepage).
+-   Navigation traffic saw an average increase of 8% across landing pages (including homepage).
 -   Traffic to myRAC increased by 3% through self-service channels.
--   Call volume decreased by 1.5% as a result of the increase in self-service utilization.
--   The consolidated design of components received highly positive feedback from executive-level stakeholders.
--   The design contributed to a 20-point increase in core web vitals score, enhancing SEO performance.
+-   Call volume decreased by 1.5% as a result of the increase in self-service utilisation.
+-   Redesign contributed to a 20-point increase in core web vitals score, enhancing SEO performance.
 
 <figure>
   <Image

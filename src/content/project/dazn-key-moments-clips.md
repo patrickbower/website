@@ -28,12 +28,14 @@ For the casual sports fans with little spare time or have short attention spans.
 
 ### Process
 
-This was a fast-paced piece of work, and the auto-scrolling film roll is a dynamic showcase of key moments from various games and sports. I designed and prototyped it using React.js and a back-end clip generator API. Highlights are either curated or auto-generated and played in a sequential order defined by a JSON schema. Users visiting the page will have the film roll automatically play through, but they can pause the autoplay and take control by interacting with the page, allowing for personalised viewing.
+This was a fast-paced project, featuring an auto-scrolling film roll that dynamically showcases key moments from various games and sports. I designed and prototyped it using React.js and a back-end clip generator API. Highlights are either curated or auto-generated, played in a sequence defined by a JSON schema. When users visit the page, the film roll automatically plays, but they can pause the autoplay and interact with the page for a personalized viewing experience.
 
 ### Outcome
 
 -   Creative solution aligned with DAZN's north star at the time "twice a week, every week," engaging users beyond live games on the platform.
 -   Developing a rapid mobile prototype with network condition testing for validation as a proof of concept to push stakeholder buy-in.
+-   Refined animations, timing, and interactions for production engineering to reuse.
+-   Taken to live within the DAZN app shortly after.
 
 <figure>
   <Image

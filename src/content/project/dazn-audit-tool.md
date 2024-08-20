@@ -15,9 +15,7 @@ tags:
 
 ## Landing Page Audit Tool (Side Project)
 
-With no data from an existing Landing Page Builder tool, I was stuck on how to lead a redesign for landing pages needed across DAZN's global markets. To get data and insight, I built a Node.js crawler analysing and databasing all current and previous DAZN landing pages. I then developed and published the results using static site generation and React.js for data visualisation.
-
-The tool captures a screenshot of each component to eyeball basic content requirements and gain insight into where new opportunities may need to be considered.
+With no data from an existing Landing Page Builder tool, I was unsure how to approach the redesign of landing pages needed across DAZN's global markets. To gather data and insights, I coded a JavaScript command-line application that analyzed and databased all current and previous DAZN landing pages. I then developed a website for the findings where I could automate the publishing of results using data visualization.
 
 ### Scope
 
@@ -30,7 +28,11 @@ The tool captures a screenshot of each component to eyeball basic content requir
 
 ### Process
 
-The project is a Node.js command-line tool designed to fetch web pages, save them locally, and analyze them using class name attributes to generate 'component usage' statistics. These statistics are then passed into a secondary application to create data visualizations and overall statistics. As separate applications, it's possible to see changes over time and switch between datasets. The tool includes various commands such as setting up directories, fetching pages, scanning pages, generating reports on page statistics, and analyzing component usage. By following a systematic approach, I could effectively audit web pages for component usage and extract valuable insights.
+The project is a Node.js command-line tool designed to fetch web pages, save them locally, and analyze them using class name attributes to generate component usage statistics. These statistics are then passed into a secondary application to create data visualizations and overall statistics. As separate applications, it's possible to see changes over time and switch between datasets.
+
+The application is a series of independent scripts so processing can be split into steps to enable them to be run manually, or sequentially in a chain. Certain steps create multiple outputs. Along with the data, some capture screenshots of pages and components for publishing along with being able to eyeball and both ensure everything is working correctly and understand how components are being used by different markets.
+
+The tool includes various commands such as setting up directories, fetching pages, scanning pages, generating reports on page statistics, and analyzing component usage. Using this approach, I could effectively and accurately audit all pages, and their components by market and overall to gain extremely valuable insight.
 
 ### Outcome
 
@@ -49,7 +51,7 @@ The project is a Node.js command-line tool designed to fetch web pages, save the
 
 #### Introduction
 
-This is a Command Line Interface tool to fetch web pages, save them locally and analyse them using class name attributes to create 'component usage' statistics.
+This is a Command Line Interface tool to fetch web pages, save them locally, and analyse them using class name attributes to create 'component usage' statistics.
 
 #### Theory
 

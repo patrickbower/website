@@ -1,11 +1,12 @@
 ---
 title: "DAZN"
 description: "Audit Tool"
-pubDate: 2024-14-07
+pubDate: 2024-1-02
 heroImage: ""
 featured: true
 draft: false
 logo: "/icons/dazn-icon.png"
+imageBg: "/images/tiles/ipa-bg.png"
 tags:
     - leadership
     - code

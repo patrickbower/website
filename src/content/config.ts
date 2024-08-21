@@ -19,7 +19,8 @@ const project = defineCollection({
         author: z.string().optional(),
         draft: z.boolean().optional(),
         featured: z.boolean().optional(),
-        logo: z.string().optional()
+        logo: z.string().optional(),
+        imageBg: z.string().optional()
     })
 });
 

@@ -1,10 +1,11 @@
 ---
 title: "Halifax"
 description: "Investment Match"
-pubDate: 2023-04-02
+pubDate: 2024-1-01
 featured: true
 draft: false
 logo: "/icons/halifax-icon.png"
+imageBg: "/images/tiles/im-bg.png"
 tags:
     - ux
     - ui

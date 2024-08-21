@@ -23,17 +23,17 @@ export const SOCIALS: SocialMediaObjects = [
         active: true
     },
     {
+        name: "Mail",
+        href: "mailto:patrickbowercom@gmail.com",
+        title: `Send an email to ${SITE.title}`,
+        icon: "ph:envelope-simple-duotone",
+        active: true
+    },
+    {
         name: "Github",
         href: "https://github.com/christian-luntok/astro-lane/",
         icon: "ph:github-logo-duotone",
         title: `Follow ${SITE.author} on Github`,
-        active: false
-    },
-    {
-        name: "Mail",
-        href: "mailto:yourmail@gmail.com",
-        title: `Send an email to ${SITE.title}`,
-        icon: "",
         active: false
     },
     {

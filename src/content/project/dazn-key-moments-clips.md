@@ -1,11 +1,12 @@
 ---
 title: "DAZN"
 description: "Key Moments Clips"
-pubDate: 2024-14-07
+pubDate: 2024-1-3
 heroImage: ""
 featured: true
 draft: false
 logo: "/icons/dazn-icon.png"
+imageBg: "/images/tiles/kmc-bg.png"
 tags:
     - code
     - prototyping

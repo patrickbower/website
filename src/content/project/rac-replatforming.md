@@ -1,11 +1,12 @@
 ---
 title: "RAC"
 description: "Replatforming"
-pubDate: 2024-14-07
+pubDate: 2024-1-04
 heroImage: ""
 featured: true
 draft: false
 logo: "/icons/rac-icon.png"
+imageBg: "/images/tiles/rac-bg.png"
 tags:
     - leadership
     - design-system

@@ -81,16 +81,18 @@ const sortedPosts = posts
                             key={post.id}
                             className="col-span-1"
                             link={`/project/${post.slug}`}
+                            type="image"
+                            bgImage={post.data.imageBg}
                         >
                             <CardBody>
                                 <CardImage
                                     src={post.data.logo}
                                     alt="Alternative text for photo"
-                                    imageClass="absolute top-0 right-0 m-6 bg-white rounded-3xl"
+                                    imageClass="absolute bottom-0 left-0 m-6 rounded-3xl"
                                     width={100}
                                     height={100}
                                 />
-                                <div class="card-content absolute bottom-8 left-6 right-6">
+                                <div class="card-content absolute top-8 left-6 right-6">
                                     <CardHeader class="">
                                         {post.data.title}
                                     </CardHeader>
@@ -105,7 +107,7 @@ const sortedPosts = posts
             </CardGroup>
         </SectionContainer>
         <!-- Blog Container -->
-        <SectionContainer class="tags--container">
+        <!-- <SectionContainer class="tags--container">
             <div class="flex flex-row my-4 items-center text-neutral-500">
                 <h2
                     class="font-medium text-h4 text-neutral-500 leading-8 tracking-tighter mb-0"
@@ -134,11 +136,79 @@ const sortedPosts = posts
                     ))
                 }
             </ul>
+        </SectionContainer> -->
+        <SectionContainer>
+            <div class="flex flex-row my-4 items-center text-neutral-500">
+                <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
+                    Experance and Skills
+                </h2>
+            </div>
+            <div
+                class="text-neutral-500 grid grid-cols-2 gap-6 marker:text-neutral-200"
+            >
+                <div>
+                    <h3 class="text-body mb-2 text-neutral-900">Design & UX</h3>
+                    <ul class="list-disc list-outside space-y-1 pl-4">
+                        <li>System-driven UI design</li>
+                        <li>Create and maintain design systems</li>
+                        <li>Lead thorough user research</li>
+                        <li>Strategic wireframing and IA</li>
+                        <li>Know design technical limits</li>
+                        <li>Advanced prototyping in Figma</li>
+                        <li>Conduct effective user testing</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-body mb-2 text-neutral-900">
+                        Coding & Prototyping
+                    </h3>
+                    <ul class="list-disc list-outside space-y-1 pl-4">
+                        <li>Strong web language skills</li>
+                        <li>Thorough JavaScript and React knowledge</li>
+                        <li>Proficient with web tech stacks</li>
+                        <li>Solid coding best practices</li>
+                        <li>Deep understanding of tech functions</li>
+                        <li>Rapid and robust code prototyping</li>
+                        <li>Understand technical decision making</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-body mb-2 text-neutral-900">
+                        Leadership & Soft Skills
+                    </h3>
+                    <ul class="list-disc list-outside space-y-1 pl-4">
+                        <li>Deliver presentations to stakeholders</li>
+                        <li>Facilitate engaging workshops</li>
+                        <li>Take initiative for opportunities</li>
+                        <li>Bridge design and tech discussions</li>
+                        <li>Collaborate with cross-functional teams</li>
+                        <li>Lead design from concept to completion</li>
+                        <li>Mentor and manage team members</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-body mb-2 text-neutral-900">
+                        Tools & Technologies
+                    </h3>
+                    <ul class="list-disc list-outside space-y-1 pl-4">
+                        <li>Advanced skills with Figma and Adobe</li>
+                        <li>Expertise in front-end with VS Code</li>
+                        <li>Dev frameworks, version control and CLI's</li>
+                        <li>Strong Agile, Scrum, and Sprint practices</li>
+                        <li>Insights with UserTesting and Hotjar</li>
+                        <li>Effective use of Miro for research</li>
+                        <li>Maximize productivity with AI tools</li>
+                    </ul>
+                </div>
+            </div>
         </SectionContainer>
         <SectionContainer>
             <div class="flex flex-row my-4 items-center text-neutral-500">
                 <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
-                    Experance
+                    CV Download
                 </h2>
             </div>
             <div class="flex flex-col gap-1">
@@ -152,9 +222,7 @@ const sortedPosts = posts
                         <span
                             class="text-neutral-900 line-clamp-1 md:inline-flex items-center"
                         >
-                            <span class="inline-block font-medium"
-                                >Patrick Bower CV</span
-                            >
+                            <span class="inline-block font-medium">PDF</span>
                         </span>
                         <span class="text-neutral-500 line-clamp-2">
                             Please view and download my CV to learn more about
@@ -164,8 +232,8 @@ const sortedPosts = posts
                     </span>
                     <div class="p-4 bg-white rounded-3xl">
                         <Icon
-                            name="ph:file-pdf"
-                            class="w-10 h-10 inline text-red-600"
+                            name="ph:download-simple"
+                            class="w-10 h-10 inline text-gray-500"
                         />
                     </div>
                 </a>

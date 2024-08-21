@@ -13,7 +13,7 @@ tags:
 
 ## Guiding first-time investors to financial growth
 
-Leading the UX and design for this innovative application, I helped create a content driven service for customers shifting from traditional savings to investment opportunities. Our platform is designed to empower and educate first-time investors, providing guidance and insights to help them maximise their financial potential.
+Leading the UX and design for this innovative application, I helped create a content-driven service for customers shifting from traditional savings to investment opportunities. Our platform is designed to empower and educate first-time investors, providing guidance and insights to help them maximize their financial potential.
 
 ### Scope
 
@@ -26,7 +26,7 @@ Leading the UX and design for this innovative application, I helped create a con
 
 ### Process
 
-By leveraging insights from the banks experts and existing customers, we delved into the emotional nuances of investing to understand triggers of confusion, confidence, and trust. Translating these insights into core values and propositions, we embarked on refining user input pages where individuals can simulate financial scenarios to grasp the benefits and risks of investment decisions.
+By leveraging insights from the bank's experts and existing customers, we delved into the emotional nuances of investing to understand triggers of confusion, confidence, and trust. Translating these insights into core values and propositions, we embarked on refining user input pages where individuals can simulate financial scenarios to grasp the benefits and risks of investment decisions.
 
 I also advocated for a Component Content Management System (CCMS) to streamline UX copy content creation, reuse, and governance within the bank's stringent compliance landscape. I led workshops where processes could be experienced rather than merely explained.
 

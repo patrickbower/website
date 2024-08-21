@@ -16,14 +16,14 @@ tags:
 
 # Automating sports big talking points
 
-For the casual sports fans with little spare time or have short attention spans. Key Moment Clips are a way to catchup on the weeks events by just watching the key moments. They can share with friends and never miss another viral or trending moment. Intended to get customers back to the app as a daily habit. Got 5 mins to spare? Open up DAZN and watch todays Key Moment Clips to catchup on sporting events around the world.
+For the casual sports fans with little spare time or have short attention spans, Key Moment Clips are a way to catch up on the week's events by just watching the key moments. They can share with friends and never miss another viral or trending moment. Intended to get customers back to the app as a daily habit. Got 5 mins to spare? Open up DAZN and watch today's Key Moment Clips to catch up on sporting events around the world.
 
 ### Scope
 
 | Aspect | Answer                          |
 | ------ | ------------------------------- |
 | Time   | 8 weeks                         |
-| Team   | 4 person cross functional team  |
+| Team   | 4 person cross-functional team  |
 | Role   | UX / Design / Prototype in code |
 | Tools  | Miro / Figma / VS Code          |
 
@@ -34,7 +34,7 @@ This was a fast-paced project, featuring an auto-scrolling film roll that dynami
 ### Outcome
 
 -   Creative solution aligned with DAZN's north star at the time "twice a week, every week," engaging users beyond live games on the platform.
--   Developing a rapid mobile prototype with network condition testing for validation as a proof of concept to push stakeholder buy-in.
+-   Developed a rapid mobile prototype with network condition testing for validation as a proof of concept to push stakeholder buy-in.
 -   Refined animations, timing, and interactions for production engineering to reuse.
 -   Taken to live within the DAZN app shortly after.
 

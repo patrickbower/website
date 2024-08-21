@@ -144,7 +144,7 @@ const sortedPosts = posts
                 </h2>
             </div>
             <div
-                class="text-neutral-500 grid grid-cols-2 gap-6 marker:text-neutral-200"
+                class="text-neutral-500 grid grid-cols-1 md:grid-cols-2 gap-6 marker:text-neutral-200"
             >
                 <div>
                     <h3 class="text-body mb-2 text-neutral-900">Design & UX</h3>
@@ -218,23 +218,26 @@ const sortedPosts = posts
                     rel="noopener noreferrer"
                     class="w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[40px] transition-all duration-300 hover:-top-0.5 relative flex flex-col gap-1"
                 >
-                    <span class="grid flex-1 gap-1">
-                        <span
-                            class="text-neutral-900 line-clamp-1 md:inline-flex items-center"
-                        >
-                            <span class="inline-block font-medium">PDF</span>
-                        </span>
-                        <span class="text-neutral-500 line-clamp-2">
-                            Please view and download my CV to learn more about
-                            my experience and skills in designing and building
-                            digital products.
-                        </span>
-                    </span>
-                    <div class="p-4 bg-white rounded-3xl">
-                        <Icon
-                            name="ph:download-simple"
-                            class="w-10 h-10 inline text-gray-500"
-                        />
+                    <div class="flex gap-8">
+                        <div class="w-full">
+                            <span
+                                class="text-neutral-900 line-clamp-1 md:inline-flex items-center"
+                            >
+                                <span class="inline-block font-medium">PDF</span
+                                >
+                            </span>
+                            <span class="text-neutral-500 line-clamp-2">
+                                Please view and download my CV to learn more
+                                about my experience and skills in designing and
+                                building digital products.
+                            </span>
+                        </div>
+                        <div class="p-4 bg-white rounded-3xl">
+                            <Icon
+                                name="ph:download-simple"
+                                class="w-12 h-10 inline text-gray-500"
+                            />
+                        </div>
                     </div>
                 </a>
             </div>

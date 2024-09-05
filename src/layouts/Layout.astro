@@ -6,6 +6,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
 import SEO from "@/components/seo/SEO.astro";
 import { Icon } from "astro-icon";
 import { SOCIALS } from "@config";
+import { Image } from "@astrojs/image/components";
 
 const currentYear = new Date().getFullYear();
 
@@ -36,17 +37,24 @@ const {
             <slot />
         </main>
 
-        <SectionContainer class="mt-32">
-            <footer class="py-40 bg-neutral-50">
-                <div class="wrap-sm mx-auto px-8 grid gap-8">
+        <SectionContainer class="mt-32 pt-32">
+            <footer class="pb-40 bg-neutral-50">
+                <div class="wrap-sm mx-auto px-8 grid gap-8 relative">
+                    <Image
+                        src="/images/pb-profile.png"
+                        alt="Patrick Bower logo"
+                        width={160}
+                        height={160}
+                        aspectRatio={1 / 1}
+                        format={"png"}
+                        class="rounded-full h-32 w-32 bg-neutral-100 object-cover -mt-16 mb-8"
+                    />
                     <h2
                         class="font-medium text-3xl md:text-5xl lg:text-6xl tracking-tight lg:tracking-tighter"
                     >
                         Hire me and let's achieve{" "}
-                        <span
-                            class="text-neutral-500 inline font-bold underline-offset-4 underline"
-                        >
-                            great work
+                        <span class="text-neutral-500 inline font-bold">
+                            great things
                         </span>{" "}
                         together
                     </h2>

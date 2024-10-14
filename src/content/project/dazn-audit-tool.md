@@ -16,13 +16,13 @@ tags:
 
 ## Landing Page Audit Tool (Side Project)
 
-With no data from an existing Landing Page Builder tool, I was unsure how to approach the redesign of landing pages needed across DAZN's global markets. To gather data and insights, I coded a JavaScript command-line application that analyzed and databased all current and previous DAZN landing pages. I then developed a website for the findings where I could automate the publishing of results using data visualization.
+DAZN's Landing Page Builder tool could not scale beyond existing markets. It was no longer powerful enough to support business growth, resulting in low efficacy and high service costs. A new tool was needed. Lacking data from the existing Landing Page Builder tool usage, I was uncertain how to redesign both the template and the tool. To gather data and insights, I coded a JavaScript command-line application to analyse and database all current and previous DAZN landing pages. I then developed a website to publish the findings, automating the results using data visualisation.
 
 ### Scope
 
 | Aspect | Answer                 |
 | ------ | ---------------------- |
-| Time   | Approx 1 Week          |
+| Time   | 2 Week Sprint          |
 | Team   | Solo                   |
 | Role   | FE Engineer            |
 | Tools  | VS Code / Node / React |

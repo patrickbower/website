@@ -55,7 +55,7 @@ const sortedPosts = posts
                 </p>
             </div>
         </SectionContainer>
-        <!-- Header/Hero Section -->
+        
         <!--  Projects Container -->
         <SectionContainer class="blogs--container">
             <div class="flex flex-row my-4 items-center text-neutral-500">
@@ -105,6 +105,46 @@ const sortedPosts = posts
                 }
             </CardGroup>
         </SectionContainer>
+
+        <!-- Side Projects -->
+         <SectionContainer>
+            <div class="flex flex-row my-4 items-center text-neutral-500">
+                <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
+                    Recent Side Project
+                </h2>
+            </div>
+            <div class="flex flex-col gap-1">
+                <a
+                    href="https://auto-q.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="w-full card-clip no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[40px] transition-all duration-300 hover:-top-0.5 relative flex flex-col gap-1 overflow-hidden"
+                >
+                    <div class="flex gap-8">
+                        <div class="w-full p-8">
+                            <p class="text-body mb-2 text-neutral-900">
+                                AutoQ
+                            </p>
+                            <p class="text-neutral-500">
+                                A side project exploring the Web Speech API and its ability to aid
+                                public speaking through auto-cue web app.
+                            </p>
+                        </div>
+
+                        <Image
+                            src="./images/tiles/autoq.png"
+                            width={200}
+                            height={200}
+                            alt="something"
+                            loading="lazy"
+                            format="png"
+                            class="object-cover hidden md:block"
+                        />
+                    </div>
+                </a>
+            </div>
+        </SectionContainer>
+
         <!-- Blog Container -->
         <!-- <SectionContainer class="tags--container">
             <div class="flex flex-row my-4 items-center text-neutral-500">
